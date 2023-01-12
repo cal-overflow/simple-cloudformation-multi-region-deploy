@@ -1,0 +1,8 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Description: 'A very basic stack with only an S3 bucket'
+
+Resources:
+  # A basic S3 Bucket with all default properties
+  S3Bucket:
+    Type: AWS::S3::Bucket
+
